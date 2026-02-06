@@ -1,13 +1,15 @@
-body{
-  background-color:#1a1a2e;
+     body{
+      background-color:#000;
+      padding: 10px;
+      color: #fff;
 }
-h1:hover{
+     h1:hover{
 
       transform: rotateY(360deg); 
       transition: 5s;
       cursor: default;
 }
-.page { 
+     .page { 
        display: none;
        text-align: center;
        min-height: 100vh;
@@ -52,10 +54,7 @@ h1:hover{
    }
   
      h3:hover{
-
-      transform: rotate(360deg); 
-      transition: 3s;
-      cursor: default;
+       cursor: default;
    }
      h1:hover{
 
@@ -67,3 +66,24 @@ h1:hover{
        background-color: #0b0b96;
        padding-top: 50px;
      }
+     footer{
+        background-color: #000;
+        padding: 20px;
+     }
+     p{
+      cursor: default;
+   }
+     .home-buttons { 
+      align-items: center;
+      gap: 30px;
+      
+  }
+
+    .home-buttons button {
+     width: 220px;
+     height: 130px;
+    }
+    .spin{
+      transform: rotate(360deg); 
+      transition: 3s;
+}
